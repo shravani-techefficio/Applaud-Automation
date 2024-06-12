@@ -1,0 +1,746 @@
+import java.time.Duration;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.StaleElementReferenceException;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import com.google.common.base.Predicate;
+
+public class SeliniumTest {
+
+	static WebDriver driver;
+
+	public static JSONObject, JsonPath void main(String[] args) throws InterruptedException {
+
+		System.setProperty(webdriver.chrome.driver,
+				CSelenium webdriverchromedriver-win64 (1)chromedriver-win64chromedriver.exe);
+
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.navigate().to(httptechefficio.centralindia.cloudapp.azure.comApplaud-Automation);
+		Thread.sleep(1000);
+
+		driver.findElement(By.xpath(htmlbodydivdiv[2]divdiv[1]div[3]abutton)).click();
+
+	if (performLogin(298441, Test123)) {
+
+		driver.findElement(By.xpath(htmlbodyasideulli[4]aspan[1])).click();
+		Thread.sleep(2000);
+   
+         driver.findElement(By.xpath(htmlbodyasideulli[4]ulli[1]aspan[1])).click();			
+         Thread.sleep(2000);
+
+         driver.findElement(By.xpath(htmlbodymaindiv[1]divdiv[2]div[2]divdivdiv[1]divbutton)).click();
+          Thread.sleep(2000);
+          
+         driver.findElement(By.xpath(htmlbodymaindiv[1]divdiv[2]div[3]divdivdiv[2]formdiv[1]divdiv[1]input)).sendKeys(1800);
+         Thread.sleep(2000);	
+     driver.findElement(By.id(CutoffDate)).click();
+	driver.findElement(By.className(ui-state-default)).click();
+	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+	     wait.until(ExpectedConditions.visibilityOfElementLocated(By.className(ui-datepicker-calendar)));
+		String aMonth = driver.findElement(By.className(ui-datepicker-calendar)).getText();
+		
+		while(aMonth.equals(June)) {
+			aMonth = driver.findElement(By.className(ui-datepicker-month)).getText();
+	
+			driver.findElement(By.xpath(td[@data-handler='selectDay']a[text()='23'])).click();
+	
+	driver.findElement(By.xpath(htmlbodymaindiv[1]divdiv[2]div[3]divdivdiv[3]button[2])).click();
+	
+		JavascriptExecutor js1 = (JavascriptExecutor) driver;
+	js1.executeScript(window.history.go(-1));
+
+	
+		 logout
+	performLogout();
+	
+			 DPM login
+
+			if (performLogin(167150, Test123)) {
+
+				 Quaterly Reward
+				driver.findElement(By.xpath(htmlbodyasideulli[4]aspan[1])).click();
+				Thread.sleep(2000);
+
+				 Pending task
+				driver.findElement(By.xpath(htmlbodyasideulli[4]ulli[1]aspan[1])).click();
+				Thread.sleep(2000);
+
+				 New Reward
+				driver.findElement(By.id(btnNewReward)).click();
+				Thread.sleep(2000);
+
+				 Reward Amount
+				Select objSelect2 = new Select(driver.findElement(By.xpath(select[@name = 'QuarterlyRewardId'])));
+				objSelect2.selectByVisibleText(1800);
+				Thread.sleep(2000);
+				
+
+				 Nominee
+				Select objSelect1 = new Select(driver.findElement(By.xpath(
+						htmlbodymaindiv[1]divdiv[2]div[3]divdivdiv[2]divformdiv[3]divdiv[2]divdivselect)));
+				objSelect1.selectByValue(6539);
+				Thread.sleep(2000);
+
+				driver.findElement(
+						By.xpath(htmlbodymaindiv[1]divdiv[2]div[3]divdivdiv[2]divformdiv[4]divbutton))
+						.click();
+				Thread.sleep(2000);
+
+				Select objSelect11 = new Select(driver.findElement(By.xpath(
+						htmlbodymaindiv[1]divdiv[2]div[3]divdivdiv[2]divformdiv[3]div[2]div[2]divdivselect)));
+				objSelect11.selectByValue(6619);
+				Thread.sleep(2000);
+
+				 Project =title
+				driver.findElement(By.id(ProjectTitle)).sendKeys(check view Flow);
+				Thread.sleep(2000);
+
+				int MaxCharactersAllowed = 200;
+
+				if (MaxCharactersAllowed = 200) {
+					System.out.println(true);
+				} else {
+					System.out.println(box highlighted);
+				}
+
+				 Achievement Description
+				driver.findElement(By.id(Description)).sendKeys(Description of Applaud);
+				Thread.sleep(2000);
+
+				int MaxCharactersAllowed1 = 500;
+
+				if (MaxCharactersAllowed1 = 500) {
+					System.out.println(true);
+				} else {
+					System.out.println(False);
+				}
+
+				 Processkaizenproject category
+
+				ListWebElement checkboxes = driver
+						.findElements(By.id(Categories_af51fdf2-3b58-4e16-973f-3a0fbef4a59e__IsActive));
+
+				 Business Impact of KaizenProcessProject Undertaken
+				driver.findElement(By.id(BusinessImpact)).sendKeys(Business impact for applaud project);
+				Thread.sleep(2000);
+
+				int MaxCharactersAllowed2 = 500;
+
+				if (MaxCharactersAllowed2 = 500) {
+					System.out.println(true);
+				} else {
+					System.out.println(false);
+				}
+				
+				
+				File upload
+				WebElement uploadfile = driver.findElement(By.xpath(input[@type = 'file']));
+			    uploadfile.sendKeys(CUsersamitOneDriveDocumentsDGP Issues (12-12-2023).xlsx);
+				
+				System.out.println(File is uploaded successfully);
+			
+
+				 submit Reward
+				driver.findElement(By.xpath(htmlbodymaindiv[1]divdiv[2]div[3]divdivdiv[3]button[2]))
+						.click();
+				Thread.sleep(7000);
+
+				 DPM Delegated the Reward
+
+				performDeligate();
+
+				 Quaterly Reward
+				driver.findElement(By.xpath(htmlbodyasideulli[4]aspan[1])).click();
+				Thread.sleep(2000);
+				 previous data
+				driver.findElement(By.xpath(htmlbodyasideulli[4]ulli[2]aspan[1])).click();
+				Thread.sleep(2000);
+				driver.findElement(By.id(ddlRequestCode)).sendKeys(2324Q4ES3);
+				Thread.sleep(3000);
+
+				driver.findElement(By.xpath(
+						htmlbodymaindiv[1]divdiv[2]div[2]divdivdiv[2]divdivdivdivdiv[2]divtabletbodytrtd[1]a))
+						.click();
+				Thread.sleep(2000);
+				
+			
+				driver.findElement(By.xpath(htmlbodymaindiv[1]divdiv[2]div[2]div[3]divdivdivdivdiv[2]divtabletbodytr[5]td[1]a)).click();
+				Thread.sleep(3000);
+
+		JavascriptExecutor js11 = (JavascriptExecutor) driver;
+		js11.executeScript(window.history.go(-1));
+
+			 logout
+				performLogout();
+			}
+
+ DPM Co-ordinator
+			if (performLogin(135682, Test123)) {
+
+				 Quaterly Reward
+				driver.findElement(By.xpath(htmlbodyasideulli[4]aspan[1])).click();
+				Thread.sleep(2000);
+				 Pending task
+				driver.findElement(By.xpath(htmlbodyasideulli[4]ulli[1]a)).click();
+				Thread.sleep(2000);
+				 select Checkbox
+				ListWebElement allCheckboxes = driver.findElements(By.cssSelector(input[type='checkbox']));
+				for (int i = allCheckboxes.size() - 1; i = 0; i--) {
+					WebElement checkbox = allCheckboxes.get(i);
+					if (checkbox.getAttribute(data-type) != null
+							&& checkbox.getAttribute(data-type).equals(approve)) {
+						checkbox.click();
+						break;
+					}
+				}
+				 Submit reward
+				driver.findElement(By.xpath(htmlbodymaindiv[1]divdiv[2]div[2]div[4]divdivdivbutton[2]))
+						.click();
+				Thread.sleep(2000);
+
+				String s3 = driver.findElement(By.xpath(htmlbodymaindiv[1]divdiv[2]div[9]divdivdiv[1]h5))
+						.getText();
+				System.out.println(s3);
+				Thread.sleep(2000);
+
+				String s4 = driver.findElement(By.xpath(htmlbodymaindiv[1]divdiv[2]div[9]divdivdiv[2]))
+						.getText();
+				System.out.println(s4);
+				Thread.sleep(2000);
+
+				driver.findElement(By.xpath(htmlbodymaindiv[1]divdiv[2]div[9]divdivdiv[3]button[2]))
+						.click();
+				Thread.sleep(2000);
+
+				JavascriptExecutor js11 = (JavascriptExecutor) driver;
+				js11.executeScript(window.history.go(-1));
+
+				 Previous data
+				 Quaterly Reward
+				driver.findElement(By.xpath(htmlbodyasideulli[4]aspan[1])).click();
+				Thread.sleep(2000);
+				 previous data
+				driver.findElement(By.xpath(htmlbodyasideulli[4]ulli[2]aspan[1])).click();
+				Thread.sleep(2000);
+				driver.findElement(By.id(ddlRequestCode)).sendKeys(2324Q4ES3);
+				Thread.sleep(3000);
+
+				driver.findElement(By.xpath(
+						htmlbodymaindiv[1]divdiv[2]div[2]divdivdiv[2]divdivdivdivdiv[2]divtabletbodytrtd[1]a))
+						.click();
+				Thread.sleep(3000);
+				
+				driver.findElement(By.xpath(htmlbodymaindiv[1]divdiv[2]div[2]div[3]divdivdivdivdiv[2]divtabletbodytr[5]td[1]a)).click();
+				Thread.sleep(3000);
+
+				JavascriptExecutor js111 = (JavascriptExecutor) driver;
+
+				js111.executeScript(window.scrollBy(0,-600), );
+				Thread.sleep(2000);
+				js111.executeScript(window.scrollBy(0,600), );
+				Thread.sleep(2000);
+				js111.executeScript(window.scrollBy(0,-600), );
+				Thread.sleep(2000);
+
+				 logout
+
+				performLogout();
+
+ DPM Login
+
+				if (performLogin(167150, Test123)) {
+
+					 Quaterly Reward
+					driver.findElement(By.xpath(htmlbodyasideulli[4]aspan[1])).click();
+					Thread.sleep(2000);
+					 Pending task
+					driver.findElement(By.xpath(htmlbodyasideulli[4]ulli[1]a)).click();
+					Thread.sleep(2000);
+
+					JavascriptExecutor js2 = (JavascriptExecutor) driver;
+					js2.executeScript(window.scrollBy(0,-350), );
+
+					 select Checkbox
+					ListWebElement allCheckboxes2 = driver.findElements(By.cssSelector(input[type='checkbox']));
+					for (int i = allCheckboxes2.size() - 1; i = 0; i--) {
+						WebElement checkbox = allCheckboxes2.get(i);
+						if (checkbox.getAttribute(data-type) != null
+								&& checkbox.getAttribute(data-type).equals(both)) {
+							checkbox.click();
+							break;
+						}
+					}
+					 DPM Approval
+					driver.findElement(By.id(btnApproveReward)).click();
+					Thread.sleep(2000);
+
+					String s7 = driver
+							.findElement(By.xpath(htmlbodymaindiv[1]divdiv[2]div[8]divdivdiv[1]h5))
+							.getText();
+					System.out.println(s7);
+					Thread.sleep(2000);
+
+					String s8 = driver.findElement(By.xpath(htmlbodymaindiv[1]divdiv[2]div[8]divdivdiv[2]))
+							.getText();
+					System.out.println(s8);
+					Thread.sleep(2000);
+
+					driver.findElement(By.xpath(htmlbodymaindiv[1]divdiv[2]div[8]divdivdiv[3]button[2]))
+							.click();
+					Thread.sleep(2000);
+
+					JavascriptExecutor js3 = (JavascriptExecutor) driver;
+					js3.executeScript(window.history.go(-1));
+
+					 logout
+					performLogout();
+
+DPM  supervisor Login
+
+					if (performLogin(188000, Test123)) {
+
+						 Quaterly Reward
+						driver.findElement(By.xpath(htmlbodyasideulli[3]aspan[1])).click();
+						Thread.sleep(2000);
+
+						 pending action
+						driver.findElement(By.xpath(htmlbodyasideulli[3]ulli[1]aspan[1])).click();
+						Thread.sleep(2000);
+
+						 Request wise view
+						driver.findElement(By.id(ddlRequestCode)).sendKeys(2324Q4ES3);
+						Thread.sleep(2000);
+
+						driver.findElement(By.xpath(
+								htmlbodymaindiv[1]divdiv[2]div[2]divdivdiv[3]divdivdivdivdiv[2]divtabletbodytr[1]td[1]a))
+								.click();
+						Thread.sleep(2000);
+
+						 select Checkbox
+						ListWebElement allCheckboxes3 = driver.findElements(By.cssSelector(input[type='checkbox']));
+						for (int i = allCheckboxes3.size() - 1; i = 0; i--) {
+							WebElement checkbox = allCheckboxes3.get(i);
+							if (checkbox.getAttribute(data-type) != null
+									&& checkbox.getAttribute(data-type).equals(both)) {
+								checkbox.click();
+								break;
+							}
+						}
+
+				WebElement approveButton = driver.findElement(By.id(btnApproveReward));
+		        WebElement sendBackButton = driver.findElement(By.id(btnSendBackReward));
+
+				if( perfromSendsback())
+				{
+					approveButton.click();
+					
+				}
+				else
+				{
+					sendBackButton.click();
+				}
+
+						 Approval
+						driver.findElement(By.id(btnApproveReward)).click();
+						Thread.sleep(2000);
+
+						String s18 = driver
+								.findElement(By.xpath(htmlbodymaindiv[1]divdiv[2]div[8]divdivdiv[1]h5))
+								.getText();
+						System.out.println(s18);
+						Thread.sleep(2000);
+
+						String s19 = driver
+								.findElement(By.xpath(htmlbodymaindiv[1]divdiv[2]div[8]divdivdiv[2]))
+								.getText();
+						System.out.println(s19);
+						Thread.sleep(2000);
+
+						driver.findElement(
+								By.xpath(htmlbodymaindiv[1]divdiv[2]div[8]divdivdiv[3]button[2])).click();
+						Thread.sleep(2000);
+					
+						JavascriptExecutor js12 = (JavascriptExecutor) driver;
+						 js12.executeScript(window.history.go(-1));
+
+					 Previous data
+					 Quaterly Reward
+					 driver.findElement(By.xpath(htmlbodyasideulli[3]aspan[1])).click();
+					 Thread.sleep(2000);
+
+					driver.findElement(By.xpath(htmlbodyasideulli[3]ulli[2]aspan[1])).click();
+					Thread.sleep(2000);
+
+					driver.findElement(By.id(ddlRequestCode)).sendKeys(2324Q4ES3);
+					Thread.sleep(3000);
+
+				driver.findElement(By.xpath(
+							htmlbodymaindiv[1]divdiv[2]div[2]divdivdiv[2]divdivdivdivdiv[2]divtabletbodytrtd[1]a))
+						.click();
+					Thread.sleep(3000);
+
+					JavascriptExecutor js1111 = (JavascriptExecutor) driver;
+
+				js1111.executeScript(window.scrollBy(0,-600), );
+					Thread.sleep(2000);
+					js1111.executeScript(window.scrollBy(0,600), );
+					Thread.sleep(2000);
+					js1111.executeScript(window.scrollBy(0,-600), );
+				Thread.sleep(2000);
+
+						 JavascriptExecutor js4 = (JavascriptExecutor) driver;
+						 js4.executeScript(window.history.go(-1));
+
+						 logout
+						performLogout();
+
+						 GTS User Login
+						if (performLogin(298441, Test123)) {
+
+							driver.findElement(By.xpath(htmlbodyasideulli[4]aspan[1])).click();
+							Thread.sleep(2000);
+							driver.findElement(By.xpath(htmlbodyasideulli[4]ulli[3]aspan[1])).click();
+							Thread.sleep(2000);
+
+							ListWebElement allCheckboxes4 = driver
+									.findElements(By.cssSelector(input[type='checkbox']));
+							for (int i1 = allCheckboxes4.size() - 1; i1 = 0; i1--) {
+								WebElement checkbox = allCheckboxes4.get(i1);
+								if (checkbox.getAttribute(data-type) != null
+										&& checkbox.getAttribute(data-type).equals(payroll)) {
+									checkbox.click();
+									break;
+								}
+							}
+
+							JavascriptExecutor js26 = (JavascriptExecutor) driver;
+
+							js26.executeScript(window.scrollBy(0,-1000), );
+							Thread.sleep(2000);
+							js26.executeScript(window.scrollBy(0,1000), );
+							Thread.sleep(2000);
+							js26.executeScript(window.scrollBy(0,-1000), );
+							Thread.sleep(2000);
+							
+							
+							 Send List payroll
+							driver.findElement(By.id(btn-payment-payroll)).click();
+							Thread.sleep(2000);
+
+							String s17 = driver
+									.findElement(By.xpath(htmlbodymaindiv[1]divdiv[2]div[4]divdivdiv[1]h5))
+									.getText();
+							System.out.println(s17);
+							Thread.sleep(2000);
+
+							String s20 = driver
+									.findElement(By.xpath(htmlbodymaindiv[1]divdiv[2]div[4]divdivdiv[2]))
+									.getText();
+							System.out.println(s20);
+							Thread.sleep(2000);
+
+							driver.findElement(By.xpath(htmlbodymaindiv[1]divdiv[2]div[4]divdivdiv[3]a[2]))
+									.click();
+							Thread.sleep(2000);
+
+
+							ListWebElement allCheckboxes5 = driver
+									.findElements(By.cssSelector(input[type='checkbox']));
+							for (int i1 = allCheckboxes5.size() - 1; i1 = 0; i1--) {
+								WebElement checkbox = allCheckboxes5.get(i1);
+								if (checkbox.getAttribute(data-type) != null
+										&& checkbox.getAttribute(data-type).equals(confirm)) {
+									checkbox.click();
+									break;
+								}
+							}
+							
+							
+							JavascriptExecutor js28 = (JavascriptExecutor) driver;
+
+							js28.executeScript(window.scrollBy(0,-1000), );
+							Thread.sleep(2000);
+							js28.executeScript(window.scrollBy(0,1000), );
+							Thread.sleep(2000);
+							js28.executeScript(window.scrollBy(0,-1000), );
+							Thread.sleep(2000);
+							
+
+							 Send Confirmation
+							driver.findElement(By.id(btn-payment-confirm)).click();
+							Thread.sleep(2000);
+
+							String s51 = driver
+									.findElement(By.xpath(htmlbodymaindiv[1]divdiv[2]div[3]divdivdiv[1]h5))
+									.getText();
+							System.out.println(s51);
+							Thread.sleep(2000);
+
+							String s21 = driver
+									.findElement(By.xpath(htmlbodymaindiv[1]divdiv[2]div[3]divdivdiv[2]))
+									.getText();
+							System.out.println(s21);
+							Thread.sleep(2000);
+
+							driver.findElement(By.xpath(htmlbodymaindiv[1]divdiv[2]div[3]divdivdiv[3]a[2]))
+									.click();
+							Thread.sleep(2000);
+
+
+							 DashBoard
+						driver.findElement(By.xpath(htmlbodyasideulli[2]aspan[2])).click();
+
+							JavascriptExecutor js21 = (JavascriptExecutor) driver;
+
+						js21.executeScript(window.scrollBy(0,-400), );
+						Thread.sleep(2000);
+						js21.executeScript(window.scrollBy(0,400), );
+						Thread.sleep(2000);
+						js21.executeScript(window.scrollBy(0,-400), );
+						Thread.sleep(2000);
+
+							 Reward payment
+							driver.findElement(By.xpath(htmlbodyasideulli[4]aspan[1])).click();
+							Thread.sleep(2000);
+							driver.findElement(By.xpath(htmlbodyasideulli[4]ulli[2]aspan[2])).click();
+							Thread.sleep(2000);
+
+							JavascriptExecutor js5 = (JavascriptExecutor) driver;
+							js5.executeScript(window.history.go(-1));
+
+							performLogout();
+
+							 Nominee login
+
+							if (performLogin(135682, Test123)) {
+
+								driver.findElement(
+										By.xpath(htmlbodymaindiv[1]divdiv[2]div[3]divdivdivdiva)).click();
+								Thread.sleep(2000);
+
+								JavascriptExecutor jse = (JavascriptExecutor) driver;
+
+								jse.executeScript(window.scrollBy(0,-400), );
+								Thread.sleep(2000);
+								jse.executeScript(window.scrollBy(0,400), );
+								Thread.sleep(2000);
+								jse.executeScript(window.scrollBy(0,-400), );
+								Thread.sleep(2000);
+
+								JavascriptExecutor js7 = (JavascriptExecutor) driver;
+								js7.executeScript(window.history.go(-1));
+
+								performLogout();
+								
+								
+								if (performLogin(145742, Test123)) {
+
+									driver.findElement(
+											By.xpath(htmlbodymaindiv[1]divdiv[2]div[3]divdivdivdiva)).click();
+									Thread.sleep(2000);
+
+									JavascriptExecutor js9 = (JavascriptExecutor) driver;
+
+									js9.executeScript(window.scrollBy(0,-400), );
+									Thread.sleep(2000);
+									js9.executeScript(window.scrollBy(0,400), );
+									Thread.sleep(2000);
+									js9.executeScript(window.scrollBy(0,-400), );
+									Thread.sleep(2000);
+
+									JavascriptExecutor js8 = (JavascriptExecutor) driver;
+									js8.executeScript(window.history.go(-1));
+
+									performLogout();
+								
+								
+								
+								
+							}
+						}
+					
+				}}
+			}
+		
+	}}
+
+	public static boolean performLogin(String username, String password) {
+		try { user Name
+			driver.findElement(By.id(MsilUserId)).sendKeys(username);
+
+			Thread.sleep(2000);
+
+			 password
+			driver.findElement(By.id(Password)).sendKeys(password);
+			Thread.sleep(2000);
+			 Login
+			driver.findElement(By.id(btnLogin)).click();
+			Thread.sleep(2000);
+			return true;
+		} catch (InterruptedException e) {
+			 TODO Auto-generated catch block
+			e.printStackTrace();
+			return false;
+		}
+	}
+
+	public static boolean performLogout() {
+		try {
+			driver.findElement(By.xpath(htmlbodyheadernavulli[2]a)).click();
+
+			Thread.sleep(2000);
+
+			String s1 = driver.findElement(By.xpath(htmlbodydiv[2]divdivdiv[1]h5)).getText();
+			System.out.println(s1);
+			Thread.sleep(2000);
+
+			String s2 = driver.findElement(By.xpath(htmlbodydiv[2]divdivdiv[2])).getText();
+			System.out.println(s2);
+			Thread.sleep(2000);
+
+			driver.findElement(By.xpath(htmlbodydiv[2]divdivdiv[3]a[2])).click();
+			Thread.sleep(2000);
+			return true;
+		} catch (InterruptedException e) {
+			 TODO Auto-generated catch block
+			e.printStackTrace();
+			return false;
+		}
+	}
+
+	public static boolean performDeligate() {
+		try {
+			 DelegateAccess
+			driver.findElement(By.xpath(htmlbodyasideulli[5]aspan[1])).click();
+			Thread.sleep(2000);
+
+			 New Access
+			driver.findElement(By.xpath(htmlbodymaindiv[1]divdiv[2]div[1]div[2]a)).click();
+			Thread.sleep(2000);
+
+			 Access type
+			Select ObjSelect = new Select(driver.findElement(By.id(DelegateAccessTypeId)));
+			ObjSelect.selectByValue(2);
+			Thread.sleep(2000);
+
+			 staff id
+			Select ObjSelect1 = new Select(driver.findElement(By.id(DelegateToUserId)));
+			ObjSelect1.selectByValue(6539);
+			Thread.sleep(2000);
+
+			 submit button
+			driver.findElement(By.xpath(htmlbodymaindiv[1]divdiv[2]div[3]divdivdiv[3]button[2])).click();
+			Thread.sleep(2000);
+			return true;
+		} catch (InterruptedException e) {
+			 TODO Auto-generated catch block
+			e.printStackTrace();
+			return false;
+		}
+	}
+
+	public static boolean perfromSendsback() {
+
+		try {
+			 select Checkbox
+			driver.findElement(By.cssSelector(input[type='checkbox'])).click();
+			Thread.sleep(2000);
+
+			driver.findElement(By.id(btnSendBackReward)).click();
+			Thread.sleep(2000);
+
+			driver.findElement(By.id(sendBackComment)).sendKeys(Need More Clarity for this Reward);
+
+			driver.findElement(By.xpath(htmlbodymaindiv[1]divdiv[2]div[9]divdivdiv[3]button[2])).click();
+
+			return true;
+
+		} catch (InterruptedException e) {
+			 TODO Auto-generated catch block
+			e.printStackTrace();
+			return false;
+		}
+	}
+
+	public static boolean perfromPreviousdata() {
+
+		try {
+
+Quaterly Reward
+			driver.findElement(By.xpath(htmlbodyasideulli[4]aspan[1])).click();
+			Thread.sleep(2000);
+previous data
+			driver.findElement(By.xpath(htmlbodyasideulli[4]ulli[2]aspan[1])).click();
+			Thread.sleep(2000);
+
+ Request wise view
+driver.findElement(By.id(ddlRequestCode)).sendKeys(2324Q4VI-G1);
+Thread.sleep(2000);
+
+driver.findElement(By.xpath(
+		htmlbodymaindiv[1]divdiv[2]div[2]divdivdiv[2]divdivdivdivdiv[2]divtabletbodytrtd[1]a))
+		.click();
+driver.findElement(By.xpath(
+		htmlbodymaindiv[1]divdiv[2]div[2]div[3]divdivdivdivdiv[2]divtabletbodytr[3]td[1]a))
+		.click();
+Thread.sleep(2000);
+
+			return true;
+
+		} catch (InterruptedException e) {
+			 TODO Auto-generated catch block
+			e.printStackTrace();
+			return false;
+		}
+	}
+
+	public static boolean perfromDPMSubmit() {
+		try {
+			 Quaterly Reward
+			driver.findElement(By.xpath(htmlbodyasideulli[4]aspan[1])).click();
+			Thread.sleep(2000);
+			 Pending task
+			driver.findElement(By.xpath(htmlbodyasideulli[4]ulli[1]a)).click();
+			Thread.sleep(2000);
+			 select Checkbox
+			driver.findElement(By.cssSelector(input[type='checkbox'])).click();
+			Thread.sleep(2000);
+
+			 driver.findElement(By.xpath(htmlbodymaindiv[1]divdiv[2]div[2]div[3]div[2]sectiondivdivdivdivdivdiv[2]divtabletbodytr[6]td[1]input)).click();
+			 driver.findElement(By.xpath(htmlbodymaindiv[1]divdiv[2]div[2]div[3]div[2]sectiondivdivdivdivdivdiv[2]divtabletbodytr[7]td[1]input)).click();
+
+			 Submit reward
+			driver.findElement(By.xpath(htmlbodymaindiv[1]divdiv[2]div[2]div[4]divdivdivbutton[2]))
+					.click();
+			Thread.sleep(2000);
+
+			String s3 = driver.findElement(By.xpath(htmlbodymaindiv[1]divdiv[2]div[8]divdivdiv[1]h5))
+					.getText();
+			System.out.println(s3);
+			Thread.sleep(2000);
+
+			String s4 = driver.findElement(By.xpath(htmlbodymaindiv[1]divdiv[2]div[8]divdivdiv[2]))
+					.getText();
+			System.out.println(s4);
+			Thread.sleep(2000);
+
+			driver.findElement(By.xpath(htmlbodymaindiv[1]divdiv[2]div[8]divdivdiv[3]button[2])).click();
+			Thread.sleep(2000);
+			return true;
+
+		} catch (InterruptedException e) {
+			 TODO Auto-generated catch block
+			e.printStackTrace();
+			return false;
+		}
+	}
+}
